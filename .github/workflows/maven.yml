@@ -32,7 +32,7 @@ jobs:
           distribution: 'temurin'
           cache: maven
       - name: Test with Maven
-        run: mvn test 
+        run: mvn test -f /first_try
       # Runs a single command using the runners shell
       - name: Run a one-line script
         run: echo Hello, world!
